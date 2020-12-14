@@ -43,7 +43,7 @@ class CartAdapter(cntx: Context, val inter: AddToCart, val update: UpdateTotalAm
             // setting product name
         holder.tv_name.text = Constant.product[Constant.cartPositionList[position]].name
         // setting product price
-        holder.tv_price.text = "$ " + Constant.product[Constant.cartPositionList[position]].price
+        holder.tv_price.text = "€ " + Constant.product[Constant.cartPositionList[position]].price
 
             // when user click a product in recyclerview, data of that will send to display activity using this code.
         holder.btn_remove.setOnClickListener {

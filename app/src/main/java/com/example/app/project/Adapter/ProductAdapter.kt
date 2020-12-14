@@ -43,7 +43,7 @@ class ProductAdapter(cntx: Context, product: ArrayList<ModelProduct>,val inter: 
             // setting product name
         holder.tv_name.text = product[position].name
         // setting product price
-        holder.tv_price.text = "$ " + product[position].price
+        holder.tv_price.text = "€ " + product[position].price
 
         if (Constant.cartPositionList.size > 0) {
             if (Constant.cartPositionList.contains(position)) {

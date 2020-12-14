@@ -35,8 +35,8 @@ class CartFragment(val inter: AddToCart) : Fragment(), View.OnClickListener, Upd
             }
 
         // setting total amount
-        tv_total.text = "Total Amount : $ " + total.toString()
-        Constant.totalPrice = "$ " + total.toString()
+        tv_total.text = "Total Amount : € " + total.toString()
+        Constant.totalPrice = "€ " + total.toString()
 
         // listners
         listeners()
@@ -66,8 +66,8 @@ class CartFragment(val inter: AddToCart) : Fragment(), View.OnClickListener, Upd
         }
 
         // setting total amount
-        tv_total.text = "Total Amount : $ " + total.toString()
-        Constant.totalPrice = "$ " + total.toString()
+        tv_total.text = "Total Amount : € " + total.toString()
+        Constant.totalPrice = "€ " + total.toString()
     }
 
 }
